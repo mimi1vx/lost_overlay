@@ -18,7 +18,8 @@ KEYWORDS="~x86 ~amd64"
 
 DEPEND=""
 
-RDEPEND="dev-vcs/git
+RDEPEND="virtual/mta
+		 dev-vcs/git
 	     app-shells/zsh"
 
 S=${WORKDIR}/${P}
